@@ -3,7 +3,7 @@
 
 Repositorio dedicado a probar APIs públicas disponibles en [RapidAPI](https://rapidapi.com/hub) utilizando **Postman**. El objetivo es explorar funcionalidades, métodos HTTP (especialmente POST) y analizar respuestas.
 
-![API Testing](https://assets.postman.com/postman-docs/v10/api-testing-automation.jpg)  
+![API Testing](https://i.imgur.com/4Q2LQ9W.png)  
 *(Imagen de referencia: Flujo de trabajo con APIs)*
 
 ## 🔍 Objetivos
