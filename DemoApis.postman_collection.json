@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "f8cb0132-1be5-4195-b694-d1e044b8d2ce",
+		"name": "DemoApis",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33675585"
+	},
+	"item": [
+		{
+			"name": "Translate",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-Rapidapi-Key",
+						"value": "5accced3a5msh4371f7d45c4866ap18200cjsn4add43d75521",
+						"type": "text"
+					},
+					{
+						"key": "X-Rapidapi-Host",
+						"value": "google-translate113.p.rapidapi.com",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"from\":\"auto\",\"to\":\"es\",\"text\":\"This is a test\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://google-translate113.p.rapidapi.com/api/v1/translator/text",
+					"protocol": "https",
+					"host": [
+						"google-translate113",
+						"p",
+						"rapidapi",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"translator",
+						"text"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
