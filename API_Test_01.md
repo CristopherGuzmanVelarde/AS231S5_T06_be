@@ -14,7 +14,8 @@ Documentación paso a paso para probar el endpoint de traducción con **POST** e
 
 2. **API Key**:  
    Copia tu clave desde el panel de RapidAPI:  
-   ![Donde encontrar la API Key](https://i.imgur.com/JfK2bnG.png)
+   ![image](https://github.com/user-attachments/assets/c54707e8-4b42-4671-8da3-405ade5f774a)
+
 
 3. **Postman Instalado**:  
    Descarga [Postman](https://www.postman.com/downloads/).
