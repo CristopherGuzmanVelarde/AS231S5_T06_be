@@ -18,7 +18,10 @@ Documentación paso a paso para probar el endpoint de traducción con **POST** e
 
 
 3. **Postman Instalado**:  
-   Descarga [Postman](https://www.postman.com/downloads/).
+   Descarga [Postman](https://www.postman.com/downloads/). o trabaja desde el entorno en la misma pagina.
+   Clic en Workspace como se indica con el rectangulo verde
+   ![image](https://github.com/user-attachments/assets/dd9fad93-b4fe-4b21-bd9b-b3b78fc59ae3)
+
 
 ---
 
@@ -42,7 +45,7 @@ En la pestaña *Headers*, agrega:
 | `X-RapidAPI-Key`   | Tu API Key |
 | `Content-Type`     | `application/json` |
 
-![Headers en Postman](https://i.imgur.com/8mDfL3x.png)
+![image](https://github.com/user-attachments/assets/1ccfba79-cd63-4c38-8546-0287822e5958)
 
 ---
 
@@ -53,15 +56,5 @@ En la pestaña *Headers*, agrega:
 2. Selecciona **raw** y **JSON**.
 3. Ingresa este ejemplo:
 
-```json
-{
-  "from": "en",
-  "to": "es",
-  "text": "Hello world, this is a test"
-}
+![image](https://github.com/user-attachments/assets/3da99589-02ce-4025-881b-ea286ebce8b6)
 
-{
-  "trans": "Hola mundo, esto es una prueba",
-  "from": "en",
-  "to": "es"
-}
